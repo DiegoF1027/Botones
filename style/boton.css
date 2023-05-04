@@ -1,0 +1,414 @@
+body{
+	background-color: #212121;
+}
+
+.boton1{
+	border-color: #f48fb1; 
+	border-radius: 10px; 
+	width:90px; 
+	height: 45px; 
+	background-color: #f48fb1; 
+	font-family: monospace; 
+	font-size: 19px; 
+	color: white; 
+	cursor: pointer;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	margin: auto;
+	padding: 8px;
+}
+
+.boton1:hover{
+	background-color: blue;
+	border-color: blue; 
+}
+
+.boton2{
+	border-color: #2196f3; 
+	border-radius: 10px; 
+	width:90px; 
+	height: 45px; 
+	background-color: #2196f3; 
+	font-family: monospace; 
+	font-size: 19px; 
+	color: white; 
+	cursor: pointer;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	margin: auto;
+	padding: 8px;
+}
+
+.boton2:hover{
+	color: darkblue;
+}
+
+.boton3{
+	border-color: #4dd0e1; 
+	border-radius: 10px; 
+	width:90px; 
+	height: 45px; 
+	background-color: #4dd0e1; 
+	font-family: monospace; 
+	font-size: 19px; 
+	color: white; 
+	cursor: pointer;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	margin: auto;
+	padding: 8px;
+}
+
+.boton3:hover {
+    background-color: transparent;
+    color: #4dd0e1;
+}
+
+.boton4{
+	border-color: #ab47bc; 
+	border-radius: 10px; 
+	width:90px; 
+	height: 45px; 
+	background-color: #ab47bc; 
+	font-family: monospace; 
+	font-size: 19px; 
+	color: white; 
+	cursor: pointer;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	margin: auto;
+	padding: 8px;
+	transition: color 2s;
+}
+
+.boton4:hover {
+	background-color:transparent;
+	color: #ab47bc;
+}
+
+.boton5{
+	border-color: #aeea00; 
+	border-radius: 10px; 
+	width:90px; 
+	height: 45px; 
+	background-color: #aeea00; 
+	font-family: monospace; 
+	font-size: 19px; 
+	color: white; 
+	cursor: pointer;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	margin: auto;
+	padding: 8px;
+	transition: background-color 1s;
+}
+
+.boton5:hover {
+	background-color:transparent;
+}
+
+.boton6{
+	border-color: #ff9100; 
+	border-radius: 10px; 
+	width:90px; 
+	height: 45px; 
+	background-color: #ff9100; 
+	font-family: monospace; 
+	font-size: 19px; 
+	color: white; 
+	cursor: pointer;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	margin: auto;
+	padding: 8px;
+}
+
+.boton6:hover,
+.boton6:focus,
+.boton6:active{
+	animation-name: boton6;
+	animation-duration: .5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 1s;
+}
+
+@keyframes boton6{
+	17% {transform: translateY(8px);}
+	34% {transform: translateY(-6px);}
+	50% {transform: translateY(4px);}
+	67% {transform: translateY(-2px);}
+	84% {transform: translateY(1px);}
+	100% {transform: translateY(0px);}
+}
+
+.boton7{
+	border-color: #ffc107; 
+	border-radius: 10px; 
+	width:90px; 
+	height: 45px; 
+	background-color: #ffc107; 
+	font-family: monospace; 
+	font-size: 19px; 
+	color: white; 
+	cursor: pointer;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	margin: auto;
+	padding: 8px;
+}
+
+.boton7:hover,
+.boton7:focus,
+.boton7:active{
+	animation-name: boton7;
+	animation-duration: .5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 1s;
+}
+
+@keyframes boton7{
+	17% {transform: translateX(8px);}
+	34% {transform: translateX(-6px);}
+	50% {transform: translateX(4px);}
+	67% {transform: translateX(-2px);}
+	84% {transform: translateX(1px);}
+	100% {transform: translateX(0px);}
+}
+
+.boton8{
+	border-color: #2196f3; 
+	border-radius: 10px; 
+	width:90px; 
+	height: 45px; 
+	background-color: #2196f3; 
+	font-family: monospace; 
+	font-size: 19px; 
+	color: white; 
+	cursor: pointer;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	margin: auto;
+	padding: 8px;
+}
+
+.boton8:hover,
+.boton8:focus,
+.boton8:active{
+	animation-name: boton8;
+	animation-duration: .5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 1s;
+	background-color: #0d47a1;
+	border-color: #0d47a1;
+}
+
+@keyframes boton8{
+	17% {transform: translateX(8px);}
+	34% {transform: translateX(-6px);}
+	50% {transform: translateX(4px);}
+	67% {transform: translateX(-2px);}
+	84% {transform: translateX(1px);}
+	100% {transform: translateX(0px);}
+}
+
+.boton9{
+	border-color: #1de9b6; 
+	border-radius: 10px; 
+	width:90px; 
+	height: 45px; 
+	background-color: #1de9b6; 
+	font-family: monospace; 
+	font-size: 19px; 
+	color: white; 
+	cursor: pointer;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	margin: auto;
+	padding: 8px;
+}
+
+.boton9:hover,
+.boton9:focus,
+.boton9:active{
+	animation-name: boton9;
+	animation-duration: .5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: .5s;
+}
+
+@keyframes boton9{
+	25% {transform: translateX(5px) rotate(4deg);}
+	50% {transform: translateX(-5px) rotate(-4deg);}
+	75% {transform: translateX(5px) rotate(4deg);}
+	100% {transform: translateX(-5px) rotate(-4deg);}
+}	
+
+.boton10{
+	border-color: #00e676; 
+	border-radius: 10px; 
+	width:90px; 
+	height: 45px; 
+	background-color: #00e676; 
+	font-family: monospace; 
+	font-size: 19px; 
+	color: white; 
+	cursor: pointer;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	margin: auto;
+	padding: 8px;
+}
+
+.boton10:hover,
+.boton10:focus,
+.boton10:active{
+	animation-name: boton10;
+	animation-duration: .5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: .5s;
+}
+
+@keyframes boton10{
+	25% {transform: translateY(-15px);}
+	50% {transform: translateY(0px);}
+	75% {transform: translateY(-15px);}
+	100% {transform: translateY(0px);}
+}
+
+.boton11{
+	border-color: #18ffff; 
+	border-radius: 10px; 
+	width:90px; 
+	height: 45px; 
+	background-color: #18ffff; 
+	font-family: monospace; 
+	font-size: 19px; 
+	color: white; 
+	cursor: pointer;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	margin: auto;
+	padding: 8px;
+	transition-property: width;
+	transition-duration: 1s;
+}
+
+.boton11:hover {
+	width: 130px;
+}
+
+.boton12{
+	border-color: #64dd17; 
+	border-radius: 10px; 
+	width:90px; 
+	height: 45px; 
+	background-color: #64dd17; 
+	font-family: monospace; 
+	font-size: 19px; 
+	color: white; 
+	cursor: pointer;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	margin: auto;
+	padding: 8px;
+	transition-duration: .4s;
+}
+
+.boton12:hover {
+	box-shadow: 0 5px 4px 0 darkgray, 0 12px 30px 0 darkgray;
+}
+
+.boton13{
+	border-color: #18ffff; 
+	border-radius: 10px; 
+	width:90px; 
+	height: 45px; 
+	background-color: #18ffff; 
+	font-family: monospace; 
+	font-size: 19px; 
+	color: white; 
+	cursor: pointer;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	margin: auto;
+	padding: 8px;
+}
+
+.boton13:hover,
+.boton13:focus,
+.boton13:active{
+	animation-name: boton13;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 2s;
+}
+
+@keyframes boton13{
+	100%{transform: rotateY(360deg);}
+}
+
+.boton14{
+	border-color: #64ffda; 
+	border-radius: 10px; 
+	width:90px; 
+	height: 45px; 
+	background-color: #64ffda; 
+	font-family: monospace; 
+	font-size: 19px; 
+	color: white; 
+	cursor: pointer;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	margin: auto;
+	padding: 8px;
+}
+
+.boton14:hover,
+.boton14:focus,
+.boton14:active{
+	animation-name: boton14;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 2s;
+}
+
+@keyframes boton14{
+	100%{transform: rotateX(360deg);}
+}
+
+.boton15{
+	border-color: #00b0ff; 
+	border-radius: 10px; 
+	width:90px; 
+	height: 45px; 
+	background-color: #00b0ff; 
+	font-family: monospace; 
+	font-size: 19px; 
+	color: white; 
+	cursor: pointer;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	margin: auto;
+	padding: 8px;
+	transition: all;
+	transition-duration: .3s;
+}
+
+.boton15:hover {
+	visibility: hidden;
+}
